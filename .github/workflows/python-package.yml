@@ -11,3 +11,4 @@ msno.matrix(train,figsize=(12,5)) #흰색선이 보이지 않으므로 결측치
 결측치 채우기
 https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.fillna.html
 
+https://colab.research.google.com/drive/1MO6KnYCuQbcRb-gsjn6vH4aKMpNbA4Sp#scrollTo=w7vViZF9p9qR
