@@ -15,3 +15,29 @@ result = sr.dt.year
 result = sr.dt.month
 result = sr.dt.day
 result = sr.dt.hour
+
+
+데이터 종류 확인
+train.dtypes
+데이터 종류 변경
+df['Customer Number'].astype('datetime64')
+
+#datetime64로 할수있는것들
+train['year']=train['datetime'].dt.year # 년도 추출 
+train['month']=train['datetime'].dt.month # 월도 추출 
+train['day']=train['datetime'].dt.day # 일 추출 
+train['hour']=train['datetime'].dt.hour # 시 추출 
+train['minute']=train['datetime'].dt.minute # 분 추출 
+train['second']=train['datetime'].dt.second # 초 추출 
+train['dayofweek']=train['datetime'].dt.dayofweek #요일 추출 , 월요일:0, 일요일:6
+
+컬러
+https://matplotlib.org/stable/tutorials/colors/colors.html
+'b' as blue
+'g' as green
+'r' as red
+'c' as cyan
+'m' as magenta
+'y' as yellow
+'k' as black
+'w' as white
